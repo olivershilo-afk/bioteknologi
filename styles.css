@@ -39,14 +39,14 @@ header{
 body{
     margin: 0;
     font-family: 'Poppins', sans-serif;
-    background-color: rgb(244, 241, 234);
-    color:rgb(46, 46, 46)
+    background-color: rgb(242, 236, 220);
+    color:rgb(46, 46, 46);
 }
 .home{
     height: 800px;
     background-image: url(Kombucha1.png);
     background-size: cover;
-    padding-top: 50px;
+    padding-top: 40px;
 }
 .home h1{
     color: rgb(255, 244, 220);
@@ -82,6 +82,8 @@ section.project{
 }
 .about{
     padding: 80px 0;
+    background-image: url(bg2.png);
+    background-size: cover;
 }
 .containerabout{
     width: 70%;
@@ -139,21 +141,26 @@ abouttext{
     justify-content: space-between;
     align-items: center;
 }
+.howto{
+    background-image: url(bg1.png);
+    background-size: auto;
+}
 .howwto{
     width: 65%;
     margin: 80px auto;
     padding: 40px;
     text-align: left;
-    background-color: rgb(177, 143, 81);
+    background-color:rgb(255, 248, 225);
     border-radius: 20px;
     box-shadow: 0px 5px 15px;
 
     h3{
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 22px;
 }
 }
-
 .howwto ol{
     margin-top: 20px;
     line-height: 1.8;
@@ -164,13 +171,18 @@ abouttext{
     margin-top: 12px;
     border-radius: 12px;
     box-shadow: 3px 3px 6px;
+    position: relative;
 
     section{
     margin-top: 80px;
 }
 }
+.step:hover{
+    background-color: rgb(220,200,150);
+}
 .profile{
     padding: 80px 0;
+    background-image: url(bg3.png);
 }
 
 .profilecard{
